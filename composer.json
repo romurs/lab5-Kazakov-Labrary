@@ -20,5 +20,9 @@
     ],
     "require": {
         "egor/chocolate": "dev-master"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.11",
+        "squizlabs/php_codesniffer": "3.*"
     }
 }

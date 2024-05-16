@@ -2,7 +2,12 @@
 
 require_once 'vendor/autoload.php';
 
-use Egor\Chocolate\ChocolateFactory;
+use Romurs\ChocolateFactory\SweetsFactory;
 
-$factory = new ChocolateFactory();
-$factory->orderSnack('', '', []);
+$factory = new SweetsFactory();
+$factory->orderSnack("конфета");
+print "-------------" . PHP_EOL;
+$factory->orderSnack("белый шоколад");
+print "-------------" . PHP_EOL;
+$factory->orderSnack("ботончик");
+print "-------------" . PHP_EOL;
