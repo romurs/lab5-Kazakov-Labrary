@@ -4,12 +4,52 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f70939eae281da7246f2e72a3131ae6",
-    "packages": [],
+    "content-hash": "b2f0cbff55e85367b93c52ce21595ae2",
+    "packages": [
+        {
+            "name": "egor/chocolate",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Zloybabyrjon/Lab_5-Composer-.git",
+                "reference": "c4684a7a1a17371f1e8980dd7cdb768e3587cdb4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Zloybabyrjon/Lab_5-Composer-/zipball/c4684a7a1a17371f1e8980dd7cdb768e3587cdb4",
+                "reference": "c4684a7a1a17371f1e8980dd7cdb768e3587cdb4",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.11",
+                "squizlabs/php_codesniffer": "3.*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Egor\\Chocolate\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Kazakov Egor",
+                    "email": "egortumanov812@gmail.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/Zloybabyrjon/Lab_5-Composer-/tree/master",
+                "issues": "https://github.com/Zloybabyrjon/Lab_5-Composer-/issues"
+            },
+            "time": "2024-05-16T16:22:05+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "egor/chocolate": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
