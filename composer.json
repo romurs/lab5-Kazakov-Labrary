@@ -1,0 +1,24 @@
+{
+    "name": "romurs/chocolate-factory",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Romurs\\ChocolateFactory\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "romurs",
+            "email": "1romurs@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+        "type":"vcs",
+        "url": "https://github.com/Zloybabyrjon/Lab_5-Composer-"
+        }
+    ],
+    "require": {
+        "egor/chocolate": "dev-master"
+    }
+}
